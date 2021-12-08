@@ -1,18 +1,8 @@
 body {
-    background-color:  rgb(167, 238, 238);
-}
-/* #header {
-    padding-top: 15vh;
-    padding-left: 19vw;
-    padding-bottom: 15vh;
+    background-color: #FAF6F6;
 }
 
-#pricebuttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-} 
-.pricinginfo {
-    padding-top: 20vh;
-} */
+.colorblock1{
+    background-color: #DEF9FA;
+}
