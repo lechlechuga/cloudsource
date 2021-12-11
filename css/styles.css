@@ -3,6 +3,21 @@ body {
 }
 
 
-.colorblock1{
+.container-header1{
     background-color: #DEF9FA;
+    margin-top: 30px;
+    margin-right: 0px;
+    width: 55vw;
+    height: 50vh;
+    display: flex;
+    
+}
+.container-header2{
+    background-color: #2F5972;
+    margin-top: 30px;
+    height: 50vh;
+    width: 42vw;
+    float: right;
+    display: flex;
+   
 }
