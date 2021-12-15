@@ -33,3 +33,11 @@ body {
     margin-bottom: 20px;
 
 }
+.carousel-item{
+    margin: auto;
+}
+.reviews-icons{
+    background-color: #2F5972;
+    height: 25vh;
+    margin-bottom: 30px;
+}
