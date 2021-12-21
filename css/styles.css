@@ -2,6 +2,13 @@ body {
     background-color: #FAF6F6;
 }
 
+h1{
+    font-family: Fredoka One;
+}
+body{
+    font-family: Comfortaa;
+}
+
 .flex-container {
     display: flex;
     margin-top: 30px;
@@ -18,6 +25,15 @@ body {
     margin-right: 20px;
     background-color: #DEF9FA;
 } 
+    @media screen (min-width:1023px){
+        .flex-child: first child{
+            display: none;
+        }
+    }
+    
+
+
+
 .features-image{
     width: fit-content;
     margin-right: 0px;
@@ -35,6 +51,10 @@ body {
 }
 .carousel-item{
     margin: auto;
+}
+.btn-pricing{
+    height: fit-content;
+    text-align: center;
 }
 .reviews-icons{
     background-color: #2F5972;
