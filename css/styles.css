@@ -90,6 +90,18 @@ h1{
     background-color: #2F5972;
     height: 25vh;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 2px;
     text-align: center;
+}
+
+
+/* FOOTER styles  */
+.footer-links{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    color: #FFE867; 
+    text-decoration:none; 
+    cursor:pointer;  
 }
