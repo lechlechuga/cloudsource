@@ -1,5 +1,5 @@
 
-/* start universal styles for page */
+/* universal styles for page */
 body {
     background-color: #FAF6F6;
     font-family: Comfortaa;
@@ -51,7 +51,7 @@ h1{
 }
 
 
-/* start landing header */
+/* start LANDING header */
 .flex-container {
     display: flex;
     margin-top: 30px;
@@ -61,6 +61,7 @@ h1{
     flex: 1;
     background-color: #2F5972;
     height: 50vh;
+    position: relative;
 }  
 .header-text{
     /* vertical-align: center;  */
@@ -91,11 +92,15 @@ h1{
     box-shadow: 5px 8px #888888;
 }
 
-.header-image{
+/* .header-image{
     opacity: 65%;
+    clear: both;
+    float:left;
+    position: absolute;
+    z-index: 1000;
 }
-
-/* start features  styling  */
+ */
+/* start FEATURES styling  */
 .features-image{
     width: fit-content;
     margin-right: 0px;
@@ -112,8 +117,11 @@ h1{
     text-align: center;
 
 }
+.features-title{
+    padding: 15px;
+}
 
-/* start carousel styles */
+/* start CAROUSEL styles */
 
 .btn-pricing{
     height: fit-content;
@@ -132,7 +140,9 @@ h1{
     width: 100%;
     margin-bottom: 2px;
     text-align: center;
+    padding-top: 12px;
 }
+
 
 
 /* FOOTER styles  */
