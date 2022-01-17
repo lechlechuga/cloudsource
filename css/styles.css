@@ -60,10 +60,10 @@ h1{
 .flex-child {
     flex: 1;
     background-color: #2F5972;
-    height: 50vh;
+    height: 45vh;
     position: relative;
 }  
-    @media screen and (max-width:600px){
+    @media screen and (max-width:768px){
     .flex-child:last-child{
         display: none;
     }
@@ -74,16 +74,20 @@ h1{
     background-color: #DEF9FA;
     align-items: center;
 } 
-    @media screen and (min-width:600px){
+    @media screen and (min-width:768px){
         .flex-child:first-child{
             width: 100vw;
             
         }
     }
-    .header-text{
+.header-text{
         /* vertical-align: center;  */
-        font-size: 70px;
-        
+        font-size: 70px;  
+    }
+    @media screen and (max-width:768px){
+        .header-text{
+            font-size: 50px;
+        }
     }
 
 .header-button{

@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-              <a class="nav-link" href="pricing.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="" aria-expanded="false">
+              <a class="nav-link" href="./pricing.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="" aria-expanded="false">
                    Pricing
               </a>
             </li>
@@ -69,13 +69,7 @@
   </div>
 </div>
 
-<script>
-  window.onload = (event) => {
-    let myAlert = document.querySelectorAll('.toast');
-    let bsAlert = new bootstrap.Toast(myAlert);
-    bsAlert.show();
-}
-</script>
+
 
 <!-- HEADER start -->
  
@@ -257,7 +251,13 @@
 
 
   
- 
+      <script>
+        window.onload = (event) => {
+          let myAlert = document.querySelectorAll('.toast');
+          let bsAlert = new bootstrap.Toast(myAlert);
+          bsAlert.show();
+      }
+      </script>
 
 
 </body>
