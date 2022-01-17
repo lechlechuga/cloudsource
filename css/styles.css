@@ -63,20 +63,27 @@ h1{
     height: 50vh;
     position: relative;
 }  
-.header-text{
-    /* vertical-align: center;  */
-    font-size: 70px;
-    
+    @media screen and (max-width:600px){
+    .flex-child:last-child{
+        display: none;
+    }
 }
+
 .flex-child:first-child {
     margin-right: 20px;
     background-color: #DEF9FA;
     align-items: center;
 } 
-    @media screen and (max-width:600px){
-        .flex-child: first child{
-            display: none;
+    @media screen and (min-width:600px){
+        .flex-child:first-child{
+            width: 100vw;
+            
         }
+    }
+    .header-text{
+        /* vertical-align: center;  */
+        font-size: 70px;
+        
     }
 
 .header-button{
@@ -108,6 +115,11 @@ h1{
 .features-text{
     margin-top: 250px;
     margin-left: 200px;
+}
+    @media screen and(max-width:768px){
+        .features-text{
+            clear: both;
+    }
 }
 .features-icons{
     background-color: #DEF9FA;
