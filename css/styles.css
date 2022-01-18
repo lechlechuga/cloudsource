@@ -101,8 +101,10 @@ h3{
     
 .bttn-header{
     font-size: 20px;
+    text-decoration: none;
+    color: black;
     background-color: #FFE867;
-    border: 1px solid;
+    border: 1px solid black;
     /* padding: 10px; */
     box-shadow: 5px 8px #888888;
 }
@@ -156,21 +158,15 @@ h3{
 }
 
 /* start CAROUSEL styles */
-
-.btn-pricing{
-    height: fit-content;
-    text-align: center;
-    background-color: #FFE867;
-    border: 1px solid;
-    margin: 10px;
-    box-shadow: 5px 8px #888888;
+.carousel-bttn{
+    width: fit-content;
 }
 
 
 /* start REVIEWS styles */
 .reviews-icons{
     background-color: #2F5972;
-    height: 25vh;
+    height: 40vh;
     width: 100%;
     margin-bottom: 2px;
     text-align: center;
