@@ -57,18 +57,6 @@
 <!-- NAVVAR end -->
 
 
-<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="toast-header">
-    <img src="..." class="rounded me-2" alt="...">
-    <strong class="me-auto">Bootstrap</strong>
-    <small>11 mins ago</small>
-    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-  </div>
-  <div class="toast-body">
-    Hello, world! This is a toast message.
-  </div>
-</div>
-
 
 
 <!-- HEADER start -->
@@ -84,9 +72,6 @@
           <div class="header-button">
             <button type="button" class="bttn-header" data-bs-toggle="button" autocomplete="off">get started</button>
           </div>
-<!--           <div class="header-image">
-            <img src="/img/header-cloud.png" alt="bluecloud">
-          </div> -->
           </div>
         </div>
 
@@ -98,6 +83,27 @@
       </div>
 <!-- HEADER end -->
 
+
+<!-- Flexbox container for TOAST alignment-->
+<div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center">
+
+  <!-- TOAST start -->
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="./img/cloudsource1.png" width="30" height="30" class="d-inline-block align-top" class="rounded me-2" alt="cloudsource logo">
+      <strong class="me-auto">Cloudsource</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Sign up for our email list and get 20% off your first month!<br>
+      <form>
+        <input type="text" id="email" name="email">
+      </form>
+      <button type="button" class="btn btn-sm">Submit</button>
+    </div>
+  </div>
+</div>
+<!-- TOAST end -->
 
 
 <!-- FEATURES  CONTENT start -->
@@ -227,32 +233,11 @@
 
 
 
-      
-<!-- 
-      <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-bs-autohide="false">
-        <div class="toast-header">
-          <img src="..." class="rounded me-2" alt="...">
-          <strong class="me-auto">Bootstrap</strong>
-          <small>11 mins ago</small>
-          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-        <div class="toast-body">
-          Hello, world! This is a toast message.
-        </div>
-      </div> -->
 
 
 
 
-
-
-
-
-
-
-
-
-  
+  <!-- JS for toast message -->
       <script>
         window.onload = (event) => {
           let myAlert = document.querySelector('.toast');
