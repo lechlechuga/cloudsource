@@ -101,11 +101,11 @@
 
 
 <!-- FEATURES  CONTENT start -->
-  <container class="flex-container">
-    <div class="features-image">
+  <container class="container">
+    <div class="box-image">
       <img src="/img/Frame_1-removebg-preview.png" alt="personwithtablet">
     </div>
-    <div class="features-text d-flex-sm-wrap">
+    <div class="box-text">
       <h1>if you're new to web design... don't worry, we've got you!</h1>
         <p>with plans curated for everyone, we offer a wide range of support and options to 
           help you get started and make sure your site stands out.</p>
@@ -121,19 +121,21 @@
        <div class="row align-items-center">
         <div class="col">
           <img src="/img/data usage.png" alt="arroworsomething">
-          <h1>Builder Blocks</h1>
+          <h3>Builder Blocks</h3>
           <p>Anyone can build their site with our easy to use templates.<br>
           Made so that you can simply drag, drop, and watch your design come to life.</p>
         </div>
         <div class="col">
           <img src="/img/forward.png" alt="arrowright">
-          <h1>WordPress Hosting</h1>
-          <p>High level security along with free migrations and great speed.</p>
+          <h3>WordPress Hosting</h3>
+          <p>Anyone can build their site with our easy to use templates.<br>
+            Made so that you can simply drag, drop, and watch your design come to life.</p>
         </div>
         <div class="col">
           <img src="/img/down.png" alt="imagedown">
-          <h1>VPS Hosting</h1>
-          <p>A completely scalable hosting environment.</p>
+          <h3>VPS Hosting</h3>
+          <p>Anyone can build their site with our easy to use templates.<br>
+            Made so that you can simply drag, drop, and watch your design come to life.</p>
         </div>
        </div>
 
@@ -177,10 +179,10 @@
 <!-- REVIEWS container start  -->
    <container class="flex-container-reviews">
     <div class="reviews-icons">
-       <h1 style="color: white;">
+       <h2 style="color: white;">
         rated 5 stars by over a million customers
-      </h1>
-      <img class="stars" src="/img/cloudsource logo (2).png" alt="5starrating">
+      </h2>
+      <img class="reviews-image" src="/img/cloudsource logo (2).png" alt="5starrating">
     </div>
 
   </container>
@@ -253,7 +255,7 @@
   
       <script>
         window.onload = (event) => {
-          let myAlert = document.querySelectorAll('.toast');
+          let myAlert = document.querySelector('.toast');
           let bsAlert = new bootstrap.Toast(myAlert);
           bsAlert.show();
       }

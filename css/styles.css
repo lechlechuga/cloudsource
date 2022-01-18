@@ -8,6 +8,9 @@ body {
 h1{
     font-family: Fredoka One;
 }
+h3{
+    font-family: Fredoka One;
+}
 
 /* Animation */
 
@@ -86,7 +89,7 @@ h1{
     }
     @media screen and (max-width:768px){
         .header-text{
-            font-size: 50px;
+            font-size: 10vw;
         }
     }
 
@@ -111,20 +114,32 @@ h1{
     z-index: 1000;
 }
  */
+
+ 
 /* start FEATURES styling  */
-.features-image{
-    width: fit-content;
-    margin-right: 0px;
-}
-.features-text{
-    margin-top: 250px;
-    margin-left: 200px;
-}
-    @media screen and(max-width:768px){
-        .features-text{
-            clear: both;
+
+.container::before,.container::after{
+    content: " ";
+    display:table;
+  }
+.container::after{
+    clear:both
+  }
+  
+.box-image{
+    float:left;
+    margin-left:2px;
+  }
+  
+  @media screen and (max-width:768px){
+    .box-text{
+      float:none;
+      margin-right:0;
+      margin-bottom:2px
     }
-}
+  }
+
+
 .features-icons{
     background-color: #DEF9FA;
     width: 100%;
@@ -157,6 +172,10 @@ h1{
     margin-bottom: 2px;
     text-align: center;
     padding-top: 12px;
+}
+.reviews-image{
+    width: fit-content;
+    height: 20vh;
 }
 
 
