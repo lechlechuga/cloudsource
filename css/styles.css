@@ -11,6 +11,9 @@ h1{
 h3{
     font-family: Fredoka One;
 }
+h5{
+    color: white;
+}
 
 /* Animation */
 
@@ -85,7 +88,6 @@ h3{
         }
     }
 .header-text{
-        /* vertical-align: center;  */
         font-size: 70px;  
     }
     @media screen and (max-width:768px){
@@ -108,6 +110,7 @@ h3{
     /* padding: 10px; */
     box-shadow: 5px 8px #888888;
 }
+
 
 /* TOAST styles */
 .toast{
@@ -132,10 +135,14 @@ h3{
   }
   
 .box-image{
+    width: fit-content;
     float:left;
     margin-left:2px;
   }
-  
+
+ .box-text{
+     margin-top: 200px;
+ } 
   @media screen and (max-width:768px){
     .box-text{
       float:none;
@@ -148,7 +155,7 @@ h3{
 .features-icons{
     background-color: #DEF9FA;
     width: 100%;
-    height: 50vh;
+    height: fit-content;
     margin-bottom: 20px;
     text-align: center;
 
@@ -158,24 +165,33 @@ h3{
 }
 
 /* start CAROUSEL styles */
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 400px;
+}
 .carousel-bttn{
-    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
 }
 
 
 /* start REVIEWS styles */
 .reviews-icons{
     background-color: #2F5972;
-    height: 40vh;
+    height: fit-content;
     width: 100%;
     margin-bottom: 2px;
     text-align: center;
     padding-top: 12px;
 }
-.reviews-image{
-    width: fit-content;
-    height: 20vh;
+.card-text1{
+    color: white;
 }
+
 
 
 
