@@ -1,6 +1,6 @@
-
-/* universal styles for page */
-body {
+/* HOME PAGE STYLES start */
+    /* universal styles for page */
+body{
     background-color: #FAF6F6;
     font-family: Comfortaa;
 
@@ -17,7 +17,7 @@ h5{
     color: white;
 }
 
-/* Animation */
+    /* Animation */
 
 @keyframes fadeInUp {
     from {
@@ -59,7 +59,7 @@ h5{
 }
 
 
-/* start LANDING header */
+    /* start LANDING header */
 .flex-container {
     display: flex;
     margin-top: 55px;
@@ -77,7 +77,7 @@ h5{
     }
 }
 
-.flex-child:first-child {
+.flex-child:first-child{
     margin-right: 20px;
     background-color: #DEF9FA;
     align-items: center;
@@ -100,17 +100,10 @@ h5{
         }
     }
 
-.pricinginfo {
+.pricinginfo{
     padding-top: 20vh;
 } 
 
-
-    @media screen and (min-width:1023px){
-        .flex-child: first child{
-            display: none;
-
-        }
-    }
 
 .header-button{
     width: fit-content;
@@ -128,7 +121,7 @@ h5{
 }
 
 
-/* TOAST styles */
+    /* TOAST styles */
 .toast{
     background-color: #FFE867;
 }
@@ -140,7 +133,7 @@ h5{
     box-shadow: 5px 8px #888888;
 }
  
-/* start FEATURES styling  */
+    /* start FEATURES styling  */
 
 .container::before,.container::after{
     content: " ";
@@ -180,7 +173,7 @@ h5{
     padding: 15px;
 }
 
-/* start CAROUSEL styles */
+    /* start CAROUSEL styles */
 .carousel-inner{
     display: flex;
     justify-content: center;
@@ -195,7 +188,7 @@ h5{
 }
 
 
-/* start REVIEWS styles */
+    /* start REVIEWS styles */
 .reviews-icons{
     background-color: #2F5972;
     height: fit-content;
@@ -211,13 +204,18 @@ h5{
 
 
 
-/* FOOTER styles  */
+    /* FOOTER styles  */
 .footer-links{
     text-decoration: none;
     color: aliceblue;
     height: 25vh;
     margin-bottom: 30px;
 }
+
+
+
+
+/* RESOURCES PAGE STYLES start */
 .blue{
     position: relative;
     margin-top: 30px;
@@ -254,7 +252,7 @@ h5{
     width: 280px;
   }
   
-  /* The popup chat - hidden by default */
+    /* The popup chat - hidden by default */
   .chat-popup {
     display: none;
     position: fixed;
@@ -271,7 +269,7 @@ h5{
     background-color: white;
   }
   
-  /* Full-width textarea */
+    /* Full-width textarea */
   .form-container textarea {
     width: 100%;
     padding: 15px;
@@ -282,13 +280,13 @@ h5{
     min-height: 200px;
   }
   
-  /* When the textarea gets focus, do something */
+    /* When the textarea gets focus, do something */
   .form-container textarea:focus {
     background-color: #ddd;
     outline: none;
   }
   
-  /* Set a style for the submit/send button */
+    /* Set a style for the submit/send button */
   .form-container .btn {
     background-color: #F3CD74;
     color: white;
@@ -300,12 +298,12 @@ h5{
     opacity: 0.8;
   }
   
-  /* Add a red background color to the cancel button */
+    /* Add a red background color to the cancel button */
   .form-container .cancel {
     background-color: #2F5972;
   }
   
-  /* Add some hover effects to buttons */
+    /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
@@ -318,7 +316,9 @@ h5{
 }
 
 
-#Franciscobody {
+
+/* CONTACT PAGE STYLES start */
+#Franciscobody{
     background-color: #DEF9FA;
     font-family: Comfortaa;
     display: flex;
@@ -326,20 +326,20 @@ h5{
     min-height: 100vh;
 }
 
-#header {
+#header{
     padding-top: 15vh;
     padding-left: 19vw;
     padding-bottom: 15vh;
 }
 
-#pricebuttons {
+#pricebuttons{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-#contactform {
+#contactform{
     background-color: #FFE867;
     font-family: Fredoka One;
     flood-color: #5CE1E6;
@@ -349,31 +349,30 @@ h5{
     margin-bottom: 9rem;
 }
 
-#sendbutton {
+#sendbutton{
     display: flex;
     justify-content: end;
     align-items: right;
 }
 
 
-#invalidcheck3 {
+#invalidcheck3{
     padding-left: 3rem;
 }
 
 @media screen and (min-width: 600px) {
-    #contactform {
+    #contactform{
         font-size: 1.25rem;
     }
 }
 
 @media screen and (min-width: 800px) {
-    #contactform {
+    #contactform{
         font-size: 1.25rem;
     }
 }
 
 @media only screen and (orientation: landscape) {
-    #contactform {
-
+    #contactform{
         background-color: initial;
     }
