@@ -308,7 +308,7 @@ h5{
   /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
-
+  }
 
 @media screen and (max-width: 1225px){
     .flex {
