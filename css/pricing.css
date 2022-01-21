@@ -7,7 +7,7 @@
   background-color: #2F5972;
 }
 
-.container {
+#rein1 {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
@@ -16,7 +16,7 @@
 
 }
 
-.container {
+.container > p {
   width: 100%;
   margin: 0 30px;
 }
@@ -31,6 +31,15 @@
   cursor: pointer;
 }
 
+.card {
+  width: 20vw;
+  height: 350px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform .5s;
+  font-size: 1.2em; 
+  cursor: pointer;
+}
 .card-block {
   position: absolute;
   width: 100%;
@@ -50,6 +59,26 @@
 .card-front {
   background: #DEF9FA;
 }
+.card-back {
+  background: #F3CD74;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+.thunder {
+  background: #F3CD74;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.card.flipped.thunder{
+  transform: rotateY(180deg);
+}
+
 .card-back {
   background: #F3CD74;
   color: black;
