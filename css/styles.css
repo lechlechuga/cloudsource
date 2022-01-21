@@ -317,22 +317,13 @@ h5{
     }
 }
 
-/* FOOTER styles  */
-.footer-links{
-    text-decoration: none;
-    color: aliceblue;
- 
-}
-a:hover {
-    color: #FFE867;
-    text-decoration:none;
-    cursor:pointer;  
-}
 
-.sticky-footer{
-    position: fixed;
-    bottom: 0;
-    left: 0;
+#Franciscobody {
+    background-color: #DEF9FA;
+    font-family: Comfortaa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 #header {
@@ -355,6 +346,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     min-height: 47vh;
+    margin-bottom: 9rem;
 }
 
 #sendbutton {
