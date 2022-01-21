@@ -1,228 +1,107 @@
-#header {
-  padding-top: 15vh;
-  padding-left: 19vw;
-  padding-bottom: 5vh;
-}
-
-#pricebuttons {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+#pricing {
   height: 100vh;
-  width: 100vw;
-  margin-left: 11vw;
-} 
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
-body{
-  margin: 0;
-  padding: 0;
-  display: inline;
-  flex-direction: column;
-  height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  background:#fff;
+  font-family: 'helvetica';
+  background-color: #2F5972;
 }
 
-/* RAIN */
-#rain span{
-  position: relative;
-  display: inline-flex;
-  width: 180px;
-  height: 55px;
-  margin: 0 15px;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
   perspective: 1000px;
-  padding-left: 5vw;
+
 }
-#rain span a{
-  font-size: 19px;
-  letter-spacing: 1px;
+
+.container {
+  width: 100%;
+  margin: 0 30px;
+}
+
+.card {
+  width: 20vw;
+  height: 350px;
+  position: relative;
   transform-style: preserve-3d;
-  transform: translateZ(-25px);
-  transition: transform .25s;
-  font-family: 'Montserrat', sans-serif;
-  
+  transition: transform .5s;
+  font-size: 1.2em; 
+  cursor: pointer;
 }
-#rain span a:before,
-#rain span a:after{
+
+.card-block {
   position: absolute;
-  content: "RAIN";
-  height: 55px;
-  width: 180px;
+  width: 100%;
+  height: 100%;
+  padding: 35px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: 5px solid rgb(0, 0, 0);
-  box-sizing: border-box;
-  border-radius: 5px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
-#rain span a:after{
-    position: absolute;
-    content: "$5.99";
-    height: 55px;
-    width: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid rgb(0, 0, 0);
-    box-sizing: border-box;
-    border-radius: 5px;
+.card-back .text {
+  margin: 0 35px;
+}
+
+.card-front {
+  background: #DEF9FA;
+}
+.card-back {
+  background: #F3CD74;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+
+/* .card:hover {
+  transform: rotateY(180deg);
+} */
+
+
+/* ???????QUESTION???????? */
+@media (max-width: 768px)
+  .container {
+      flex-direction: column;
+      margin: 15px;
+  }
+  .container {
+      flex-direction: column;
+      margin: 15px;
+  }
+  .container > p { 
+      margin-top: 25px;
   }
 
-#rain span a:before{
-  color: #fff;
-  background: #000;
-  transform: rotateY(0deg) translateZ(25px);
-}
-#rain span a:after{
-  color: #000;
-  transform: rotateX(90deg) translateZ(25px);
-}
-#rain span a:hover{
-  transform: translateZ(-25px) rotateX(-90deg);
-}
-
-#rimg {
-  height: 400px;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  
-}
-
-/* THUNDER */
-#thunder span{
-    position: relative;
-    display: inline-flex;
-    width: 180px;
-    height: 55px;
-    margin: 0 15px;
-    perspective: 1000px;
-    padding-left: 5vw;
+  .card-block {
+      flex-direction: column;
+      text-align: center;
+      font-size: 0.9em;
   }
-  #thunder span a{
-    font-size: 19px;
-    letter-spacing: 1px;
-    transform-style: preserve-3d;
-    transform: translateZ(-25px);
-    transition: transform .25s;
-    font-family: 'Montserrat', sans-serif;
-    
+
+  .card-block .text {
+      margin: 0;
   }
-  #thunder span a:before,
-  #thunder span a:after{
-    position: absolute;
-    content: "THUNDER";
-    height: 55px;
-    width: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid rgb(0, 0, 0);
-    box-sizing: border-box;
-    border-radius: 5px;
+
+  #header {
+      padding-top: 15vh;
+      padding-left: 19vw;
+      padding-bottom: 15vh;
   }
   
-  #thunder span a:after{
-      position: absolute;
-      content: "$10.99";
-      height: 55px;
-      width: 180px;
+  #pricebuttons {
       display: flex;
-      align-items: center;
       justify-content: center;
-      border: 5px solid rgb(0, 0, 0);
-      box-sizing: border-box;
-      border-radius: 5px;
-    }
-  
-  #thunder span a:before{
-    color: #fff;
-    background: #000;
-    transform: rotateY(0deg) translateZ(25px);
-  }
-  #thunder span a:after{
-    color: #000;
-    transform: rotateX(90deg) translateZ(25px);
-  }
-  #thunder span a:hover{
-    transform: translateZ(-25px) rotateX(-90deg);
-  }
-
-  #timg {
-    height: 400px;
-    width: 400px;
-    padding-bottom: vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  
-  /* LIGHTNING */
-  #lightning span{
-    position: relative;
-    display: inline-flex;
-    width: 180px;
-    height: 55px;
-    margin: 0 15px;
-    perspective: 1000px;
-    padding-left: 5vw;
-  }
-  #lightning span a{
-    font-size: 19px;
-    letter-spacing: 1px;
-    transform-style: preserve-3d;
-    transform: translateZ(-25px);
-    transition: transform .25s;
-    font-family: 'Montserrat', sans-serif;
-    
-  }
-  #lightning span a:before,
-  #lightning span a:after{
-    position: absolute;
-    content: "LIGHTNING";
-    height: 55px;
-    width: 180px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid rgb(0, 0, 0);
-    box-sizing: border-box;
-    border-radius: 5px;
-  }
-  
-  #lightning span a:after{
-      position: absolute;
-      content: "$15.99";
-      height: 55px;
-      width: 180px;
-      display: flex;
       align-items: center;
-      justify-content: center;
-      border: 5px solid rgb(0, 0, 0);
-      box-sizing: border-box;
-      border-radius: 5px;
-    }
   
-  #lightning span a:before{
-    color: #fff;
-    background: #000;
-    transform: rotateY(0deg) translateZ(25px);
+  } 
+  .pricinginfo {
+      padding-top: 20vh;
   }
-  #lightning span a:after{
-    color: #000;
-    transform: rotateX(90deg) translateZ(25px);
-  }
-  #lightning span a:hover{
-    transform: translateZ(-25px) rotateX(-90deg);
-  }
-#limg {
-    height: 400px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-}
  
-
