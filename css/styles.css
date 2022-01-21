@@ -331,6 +331,10 @@ a:hover{
     
 }
 
+#contactheader{
+    display: flex;
+    justify-content: center;
+}
 
 #header{
     padding-top: 15vh;
@@ -357,7 +361,7 @@ a:hover{
 
 #sendbutton{
     display: flex;
-    justify-content: end;
+    justify-content: right;
     align-items: right;
 }
 
@@ -380,5 +384,8 @@ a:hover{
 
 @media only screen and (orientation: landscape) {
     #contactform{
+        background-color: initial;
+    }
+    #Franciscobody {
         background-color: initial;
     }
