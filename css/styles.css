@@ -83,6 +83,7 @@ h5{
     @media screen and (min-width:768px){
         .flex-child:first-child{
             width: 100%;
+            margin-right: hidden;
            
             
         }
@@ -186,7 +187,7 @@ h5{
     width: 100%;
     margin-bottom: 2px;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 20px;
 }
 .card-text1{
     color: white;
