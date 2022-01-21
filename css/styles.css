@@ -1,5 +1,5 @@
 body {
-    background-color: #FAF6F6;
+  background-color: #FAF6F6;
 }
 
 h1{
@@ -25,6 +25,12 @@ body{
     margin-right: 20px;
     background-color: #DEF9FA;
 } 
+
+.pricinginfo {
+    padding-top: 20vh;
+} */
+
+
     @media screen (min-width:1023px){
         .flex-child: first child{
             display: none;
@@ -61,3 +67,4 @@ body{
     height: 25vh;
     margin-bottom: 30px;
 }
+
