@@ -62,7 +62,7 @@ h5{
 /* start LANDING header */
 .flex-container {
     display: flex;
-    margin-top: 30px;
+    margin-top: 55px;
 }
 
 .flex-child {
@@ -360,13 +360,13 @@ h5{
     padding-left: 3rem;
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
     #contactform {
         font-size: 1.25rem;
     }
 }
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px) {
     #contactform {
         font-size: 1.25rem;
     }
