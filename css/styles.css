@@ -17,6 +17,17 @@ h5{
     color: white;
 }
 
+    /* FOOTER styles  */
+.footer-links{
+        text-decoration: none;
+        color: aliceblue;
+        height: 25vh;
+        margin-bottom: 30px;
+    }
+a:hover{
+        color: #F3CD74;
+    }
+    
     /* Animation */
 
 @keyframes fadeInUp {
@@ -204,13 +215,6 @@ h5{
 
 
 
-    /* FOOTER styles  */
-.footer-links{
-    text-decoration: none;
-    color: aliceblue;
-    height: 25vh;
-    margin-bottom: 30px;
-}
 
 
 
