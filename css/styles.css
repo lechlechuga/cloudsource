@@ -105,13 +105,6 @@ h5{
 } 
 
 
-    @media screen and (min-width:1023px){
-        .flex-child: first child{
-            display: none;
-
-        }
-    }
-
 .header-button{
     width: fit-content;
     margin: 0px;
