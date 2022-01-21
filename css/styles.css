@@ -3,6 +3,7 @@
 body {
     background-color: #FAF6F6;
     font-family: Comfortaa;
+
 }
 
 h1{
@@ -80,6 +81,7 @@ h5{
     background-color: #DEF9FA;
     align-items: center;
 } 
+
     @media screen and (min-width:768px){
         .flex-child:first-child{
             width: 100%;
@@ -94,6 +96,17 @@ h5{
     @media screen and (max-width:768px){
         .header-text{
             font-size: 10vw;
+
+
+.pricinginfo {
+    padding-top: 20vh;
+} */
+
+
+    @media screen (min-width:1023px){
+        .flex-child: first child{
+            display: none;
+
         }
     }
 
@@ -206,3 +219,8 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
+
+    height: 25vh;
+    margin-bottom: 30px;
+}
+
