@@ -1,18 +1,33 @@
 /* HOME PAGE STYLES start */
+<<<<<<< HEAD
 /* universal styles for page */
 body {
     background-color: #FAF6F6;
     font-family: Comfortaa;
+=======
+    /* universal styles for page */
+body{
+    background-color: #DEF9FA;
+    font-family: "Comfortaa";
+>>>>>>> 02110bd802e46f9dea1f017c4109f22276851bc3
 
 
 }
 
+<<<<<<< HEAD
 h1 {
     font-family: Fredoka One;
 }
 
 h3 {
     font-family: Fredoka One;
+=======
+h1{
+    font-family: "Fredoka One";
+}
+h3{
+    font-family: "Fredoka One";
+>>>>>>> 02110bd802e46f9dea1f017c4109f22276851bc3
 }
 
 h5 {
