@@ -1,33 +1,17 @@
 /* HOME PAGE STYLES start */
-<<<<<<< HEAD
-/* universal styles for page */
-body {
-    background-color: #FAF6F6;
-    font-family: Comfortaa;
-=======
     /* universal styles for page */
 body{
     background-color: #DEF9FA;
     font-family: "Comfortaa";
->>>>>>> 02110bd802e46f9dea1f017c4109f22276851bc3
 
 
 }
 
-<<<<<<< HEAD
-h1 {
-    font-family: Fredoka One;
-}
-
-h3 {
-    font-family: Fredoka One;
-=======
 h1{
     font-family: "Fredoka One";
 }
 h3{
     font-family: "Fredoka One";
->>>>>>> 02110bd802e46f9dea1f017c4109f22276851bc3
 }
 
 h5 {
@@ -92,26 +76,16 @@ a:hover {
 .flex-container {
     display: flex;
     margin-top: 55px;
+    height: fit-content;
 }
 
 .flex-child {
     flex: 1;
-    background-color: #2F5972;
-    height: 45vh;
+    height: fit-content;
     position: relative;
 }
 
-@media screen and (max-width:768px) {
-    .flex-child:last-child {
-        display: none;
-    }
-}
-
 .flex-child:first-child {
-    margin-right: 20px;
-    background-image: url(/img/header-cloud.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     background-color: transparent;
     align-items: center;
 }
@@ -126,7 +100,9 @@ a:hover {
 }
 
 .header-text {
-    font-size: 70px;
+    font-size: 120px;
+    justify-content: right;
+    text-align: right;
 }
 
 @media screen and (max-width:768px) {
@@ -141,8 +117,8 @@ a:hover {
 
 
 .header-button {
-    width: fit-content;
-    margin: 0px;
+    
+    
 }
 
 .bttn-header {
@@ -151,7 +127,7 @@ a:hover {
     color: black;
     background-color: #FFE867;
     border: 1px solid black;
-    /* padding: 10px; */
+    padding: 10px;
     box-shadow: 5px 8px #888888;
 }
 
@@ -174,15 +150,6 @@ a:hover {
 .container::before,
 .container::after {
     content: " ";
-<<<<<<< HEAD
-    display:table;
-  }
-.container::after{
-    clear:both
-  }
-
-.box-image{
-=======
     display: table;
 }
 
@@ -191,7 +158,6 @@ a:hover {
 }
 
 .box-image {
->>>>>>> 15c213838b4de2f616ab23dd83473a2340fcbda7
     width: fit-content;
     float: left;
     margin-left: 2px;
@@ -210,21 +176,18 @@ a:hover {
 }
 
 
-<<<<<<< HEAD
-.features-icons{
-=======
 .features-icons {
     background-color: #DEF9FA;
->>>>>>> 15c213838b4de2f616ab23dd83473a2340fcbda7
     width: 100%;
     height: fit-content;
     margin-bottom: 20px;
     text-align: center;
 
 }
-
-.features-title {
-    padding: 15px;
+.features-header-txt{
+    padding-top: 15px;
+    justify-content: center;
+    text-align: center;
 }
 
 /* start CAROUSEL styles */
