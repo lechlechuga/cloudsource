@@ -75,7 +75,6 @@ a:hover {
 /* start LANDING header */
 .flex-container {
     display: flex;
-    margin-top: 55px;
     height: fit-content;
 }
 
@@ -100,7 +99,7 @@ a:hover {
 }
 
 .header-text {
-    font-size: 120px;
+    font-size: 100px;
     justify-content: right;
     text-align: right;
 }
@@ -115,11 +114,6 @@ a:hover {
     padding-top: 20vh;
 }
 
-
-.header-button {
-    
-    
-}
 
 .bttn-header {
     font-size: 20px;
