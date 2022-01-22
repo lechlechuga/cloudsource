@@ -90,7 +90,10 @@ a:hover{
 
 .flex-child:first-child{
     margin-right: 20px;
-    background-color: #DEF9FA;
+    background-image: url(/img/header-cloud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
     align-items: center;
 } 
 
@@ -153,7 +156,7 @@ a:hover{
 .container::after{
     clear:both
   }
-  
+
 .box-image{
     width: fit-content;
     float:left;
@@ -173,7 +176,6 @@ a:hover{
 
 
 .features-icons{
-    background-color: #DEF9FA;
     width: 100%;
     height: fit-content;
     margin-bottom: 20px;
