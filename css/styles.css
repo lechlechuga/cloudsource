@@ -158,15 +158,6 @@ a:hover {
 .container::before,
 .container::after {
     content: " ";
-<<<<<<< HEAD
-    display:table;
-  }
-.container::after{
-    clear:both
-  }
-
-.box-image{
-=======
     display: table;
 }
 
@@ -175,7 +166,6 @@ a:hover {
 }
 
 .box-image {
->>>>>>> 15c213838b4de2f616ab23dd83473a2340fcbda7
     width: fit-content;
     float: left;
     margin-left: 2px;
@@ -194,12 +184,8 @@ a:hover {
 }
 
 
-<<<<<<< HEAD
-.features-icons{
-=======
 .features-icons {
     background-color: #DEF9FA;
->>>>>>> 15c213838b4de2f616ab23dd83473a2340fcbda7
     width: 100%;
     height: fit-content;
     margin-bottom: 20px;
