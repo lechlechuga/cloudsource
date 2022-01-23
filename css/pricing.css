@@ -96,10 +96,7 @@
 
 /* ???????QUESTION???????? */
 @media (max-width: 768px)
-  .container {
-      flex-direction: column;
-      margin: 15px;
-  }
+
   .container {
       flex-direction: column;
       margin: 15px;
