@@ -114,7 +114,6 @@ a:hover {
     padding-top: 20vh;
 }
 
-
 .bttn-header {
     font-size: 20px;
     text-decoration: none;
@@ -140,21 +139,10 @@ a:hover {
 }
 
 /* start FEATURES styling  */
-
-.container::before,
-.container::after {
-    content: " ";
-    display: table;
-}
-
-.container::after {
-    clear: both
-}
-
 .box-image {
-    width: fit-content;
     float: left;
-    margin-left: 2px;
+    max-width: 100%;
+    height: auto;
 }
 
 .box-text {
@@ -170,16 +158,19 @@ a:hover {
 }
 
 
-.features-icons {
-    background-color: #DEF9FA;
-    width: 100%;
-    height: fit-content;
-    margin-bottom: 20px;
-    text-align: center;
-
+.container::before,
+.container::after {
+    content: " ";
+    display: table;
 }
+
+.container::after {
+    clear: both
+}
+
 .features-header-txt{
     padding-top: 15px;
+    padding-bottom: 15px;
     justify-content: center;
     text-align: center;
 }
@@ -197,6 +188,9 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 25px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
 }
 
 
@@ -394,3 +388,4 @@ a:hover {
     #Franciscobody {
         background-color: initial;
     }
+}
