@@ -122,6 +122,10 @@ a:hover {
     border: 1px solid black;
     padding: 10px;
     box-shadow: 5px 8px #888888;
+    transition: all 0.3s ease-in-out;
+}
+.bttn-header:hover{
+    transform: scale(0.8);
 }
 
 
@@ -173,6 +177,9 @@ a:hover {
     padding-bottom: 15px;
     justify-content: center;
     text-align: center;
+}
+.item-card-title{
+    margin-top: 15px;
 }
 
 /* start CAROUSEL styles */
