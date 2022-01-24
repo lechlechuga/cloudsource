@@ -1,53 +1,55 @@
 /* HOME PAGE STYLES start */
     /* universal styles for page */
 body{
-    background-color: #FAF6F6;
-    font-family: Comfortaa;
+    background-color: #DEF9FA;
+    font-family: "Comfortaa";
 
 
 }
 
 h1{
-    font-family: Fredoka One;
+    font-family: "Fredoka One";
 }
 h3{
-    font-family: Fredoka One;
+    font-family: "Fredoka One";
 }
-h5{
+
+h5 {
     color: white;
 }
 
-    /* FOOTER styles  */
-.footer-links{
-        text-decoration: none;
-        color: aliceblue;
-        height: 25vh;
-        margin-bottom: 30px;
-    }
-a:hover{
-        color: #F3CD74;
-    }
-    
-    /* Animation */
+/* FOOTER styles  */
+.footer-links {
+    text-decoration: none;
+    color: aliceblue;
+    height: 25vh;
+    margin-bottom: 30px;
+}
+
+a:hover {
+    color: #F3CD74;
+}
+
+/* Animation */
 
 @keyframes fadeInUp {
     from {
-        transform: translate3d(0,40px,0)
+        transform: translate3d(0, 40px, 0)
     }
 
     to {
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
         opacity: 1
     }
 }
 
 @-webkit-keyframes fadeInUp {
     from {
-        transform: translate3d(0,40px,0)
+        transform: translate3d(0, 40px, 0)
     }
 
     to {
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
         opacity: 1
     }
 }
@@ -70,137 +72,140 @@ a:hover{
 }
 
 
-    /* start LANDING header */
+/* start LANDING header */
 .flex-container {
     display: flex;
-    margin-top: 55px;
+    height: fit-content;
 }
 
 .flex-child {
     flex: 1;
-    background-color: #2F5972;
-    height: 45vh;
+    height: fit-content;
     position: relative;
-}  
-    @media screen and (max-width:768px){
-    .flex-child:last-child{
-        display: none;
-    }
 }
 
-.flex-child:first-child{
-    margin-right: 20px;
-    background-color: #DEF9FA;
+.flex-child:first-child {
+    background-color: transparent;
     align-items: center;
-} 
-
-    @media screen and (min-width:768px){
-        .flex-child:first-child{
-            width: 100%;
-            margin-right: hidden;
-           
-            
-        }
-    }
-.header-text{
-        font-size: 70px;  
-    }
-    @media screen and (max-width:768px){
-        .header-text{
-            font-size: 10vw;
-        }
-    }
-
-.pricinginfo{
-    padding-top: 20vh;
-} 
-
-
-.header-button{
-    width: fit-content;
-    margin: 0px;
 }
-    
-.bttn-header{
+
+@media screen and (min-width:768px) {
+    .flex-child:first-child {
+        width: 100%;
+        margin-right: hidden;
+
+
+    }
+}
+
+.header-text {
+    font-size: 100px;
+    justify-content: right;
+    text-align: right;
+}
+
+@media screen and (max-width:768px) {
+    .header-text {
+        font-size: 10vw;
+    }
+}
+
+.pricinginfo {
+    padding-top: 20vh;
+}
+
+.bttn-header {
     font-size: 20px;
     text-decoration: none;
     color: black;
     background-color: #FFE867;
     border: 1px solid black;
-    /* padding: 10px; */
+    padding: 10px;
     box-shadow: 5px 8px #888888;
+    transition: all 0.3s ease-in-out;
+}
+.bttn-header:hover{
+    transform: scale(0.8);
 }
 
 
-    /* TOAST styles */
-.toast{
+/* TOAST styles */
+.toast {
     background-color: #FFE867;
 }
-.btn{
+.toast-body{
+    text-align: center;
+}
+.btn {
     margin-top: 8px;
     color: #FAF6F6;
     background-color: #2F5972;
     border: 1px solid;
     box-shadow: 5px 8px #888888;
 }
- 
-    /* start FEATURES styling  */
 
-.container::before,.container::after{
-    content: " ";
-    display:table;
-  }
-.container::after{
-    clear:both
-  }
-  
-.box-image{
-    width: fit-content;
-    float:left;
-    margin-left:2px;
-  }
+/* start FEATURES styling  */
+.box-image {
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
 
- .box-text{
-     margin-top: 200px;
- } 
-  @media screen and (max-width:768px){
-    .box-text{
-      float:none;
-      margin-right:0;
-      margin-bottom:2px
+.box-text {
+    margin-top: 200px;
+}
+
+@media screen and (max-width:768px) {
+    .box-text {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 2px
     }
-  }
+}
 
 
-.features-icons{
-    background-color: #DEF9FA;
-    width: 100%;
-    height: fit-content;
-    margin-bottom: 20px;
+.container::before,
+.container::after {
+    content: " ";
+    display: table;
+}
+
+.container::after {
+    clear: both
+}
+
+.features-header-txt{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
     text-align: center;
-
 }
-.features-title{
-    padding: 15px;
+.item-card-title{
+    margin-top: 15px;
+    text-align: center;
 }
 
-    /* start CAROUSEL styles */
-.carousel-inner{
+/* start CAROUSEL styles */
+.carousel-inner {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 400px;
 }
-.carousel-bttn{
+
+.carousel-bttn {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 25px;
 }
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
+}
 
 
-    /* start REVIEWS styles */
-.reviews-icons{
+/* start REVIEWS styles */
+.reviews-icons {
     background-color: #2F5972;
     height: fit-content;
     width: 100%;
@@ -208,7 +213,8 @@ a:hover{
     text-align: center;
     padding-top: 20px;
 }
-.card-text1{
+
+.card-text1 {
     color: white;
 }
 
@@ -220,29 +226,31 @@ a:hover{
 
 
 /* RESOURCES PAGE STYLES start */
-.blue{
+.blue {
     position: relative;
     margin-top: 30px;
     padding: 0;
 }
-.mypic img{
+
+.mypic img {
     width: 400px;
     height: 400px;
-    
+
 }
 
-.mypic{
+.mypic {
     position: absolute;
     bottom: 0;
     /* right: 50%; */
     padding-left: 58vw;
 }
-.ocean{
+
+.ocean {
     width: 100%;
     height: 600px;
-  
+
 }
-    
+
 .open-button {
     background-color: #555;
     color: white;
@@ -254,27 +262,27 @@ a:hover{
     bottom: 23px;
     right: 28px;
     width: 280px;
-  }
-  
-    /* The popup chat - hidden by default */
-  .chat-popup {
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
     display: none;
     position: fixed;
     bottom: 0;
     right: 15px;
     border: 3px solid #f1f1f1;
     z-index: 9;
-  }
-  
-  /* Add styles to the form container */
-  .form-container {
+}
+
+/* Add styles to the form container */
+.form-container {
     max-width: 300px;
     padding: 10px;
     background-color: white;
-  }
-  
-    /* Full-width textarea */
-  .form-container textarea {
+}
+
+/* Full-width textarea */
+.form-container textarea {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -282,37 +290,38 @@ a:hover{
     background: #f1f1f1;
     resize: none;
     min-height: 200px;
-  }
-  
-    /* When the textarea gets focus, do something */
-  .form-container textarea:focus {
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
     background-color: #ddd;
     outline: none;
-  }
-  
-    /* Set a style for the submit/send button */
-  .form-container .btn {
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
     background-color: #F3CD74;
     color: white;
     padding: 16px 20px;
     border: none;
     cursor: pointer;
     width: 100%;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     opacity: 0.8;
-  }
-  
-    /* Add a red background color to the cancel button */
-  .form-container .cancel {
-    background-color: #2F5972;
-  }
-  
-    /* Add some hover effects to buttons */
-  .form-container .btn:hover, .open-button:hover {
-    opacity: 1;
-  }
+}
 
-@media screen and (max-width: 1225px){
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: #2F5972;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1225px) {
     .flex {
         flex-direction: column;
         align-items: center;
@@ -322,30 +331,33 @@ a:hover{
 
 
 /* CONTACT PAGE STYLES start */
-#Franciscobody{
+#Franciscobody {
     background-color: #DEF9FA;
     font-family: Comfortaa;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    
+
 }
 
+#contactheader {
+    display: flex;
+    justify-content: center;
+}
 
-#header{
+#header {
     padding-top: 15vh;
     padding-left: 19vw;
     padding-bottom: 15vh;
 }
 
-#pricebuttons{
+#pricebuttons {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-#contactform{
+#contactform {
     background-color: #FFE867;
     font-family: Fredoka One;
     flood-color: #5CE1E6;
@@ -355,30 +367,35 @@ a:hover{
     margin-bottom: 9rem;
 }
 
-#sendbutton{
+#sendbutton {
     display: flex;
-    justify-content: end;
+    float: right;
     align-items: right;
 }
 
 
-#invalidcheck3{
+#invalidcheck3 {
     padding-left: 3rem;
 }
 
 @media screen and (min-width: 600px) {
-    #contactform{
+    #contactform {
         font-size: 1.25rem;
     }
 }
 
 @media screen and (min-width: 800px) {
-    #contactform{
+    #contactform {
         font-size: 1.25rem;
     }
 }
 
 @media only screen and (orientation: landscape) {
-    #contactform{
+    #contactform {
         background-color: initial;
     }
+
+    #Franciscobody {
+        background-color: initial;
+    }
+}
