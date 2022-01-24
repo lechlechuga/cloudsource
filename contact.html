@@ -13,11 +13,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fredoka+One&display=swap"
     rel="stylesheet">
+
   <!-- ICON kit -->
   <script src="https://kit.fontawesome.com/6c00500916.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body id="Franciscobody">
   <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: white;" id="stickynav">
     <a class="navbar-brand" href="./index.html"><img src="./img/cloudsource1.png" width="30" height="30"
         class="d-inline-block align-top" alt="" loading="lazy">
@@ -36,16 +37,16 @@
           </a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="./resource.html" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown" href="./resource.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             Resources
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="cloudsource/index.html">Home</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="./contact.html" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown" href="./contact.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             Contact
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -56,24 +57,23 @@
       </ul>
     </div>
   </nav>
-</body>
 
-<!-- Contact Form Container Start -->
-
-<div class="blue">
-  <div class="ocean">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#12758A" fill-opacity="1" d="M0,256L26.7,250.7C53.3,245,107,235,160,229.3C213.3,224,267,224,320,202.7C373.3,181,427,
-      139,480,112C533.3,85,587,75,640,96C693.3,117,747,171,800,160C853.3,149,907,75,960,53.3C1013.3,32,1067,64,1120,101.3C1173.3,139,1227,181,1280,170.7C1333.3,
-      160,1387,96,1413,64L1440,32L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,
-      533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path>
-    </svg>
+  <!--Top picture-->
+  <div class="container-f-all">
+    <div class="container-f">
+      <p><b>Contact Us!</b></p>
+    </div>
+      <div class="oceanF">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#12758A" fill-opacity="1" d="M0,256L26.7,250.7C53.3,245,107,235,160,229.3C213.3,224,267,224,320,202.7C373.3,181,427,
+        139,480,112C533.3,85,587,75,640,96C693.3,117,747,171,800,160C853.3,149,907,75,960,53.3C1013.3,32,1067,64,1120,101.3C1173.3,139,1227,181,1280,170.7C1333.3,
+        160,1387,96,1413,64L1440,32L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,
+        533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path>
+        </svg>
+      </div>
+    </div>
   </div>
-</div>
-</div>
-
-<body id="Franciscobody">
-  <h1 id="contactheader">Contact Us!</h1>
+  <!-- Contact Form Container Start -->
   <div class="container mt-5" id="contactform">
     <form class="row g-3">
       <div class="col-md-6">
@@ -98,7 +98,8 @@
       </div>
       <div class="col-md-12">
         <label for="Inquiry" class="form-label">Inquiry</label>
-        <textarea class="form-control" id="Inquiry" required rows="3" required placeholder="Send your questions here, we will respond within 4-5 business days."></textarea>
+        <textarea class="form-control" id="Inquiry" required rows="3" required
+          placeholder="Send your questions here, we will respond within 4-5 business days."></textarea>
       </div>
       <div class="col-md-6">
         <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
@@ -111,40 +112,37 @@
         </div>
       </div>
   </div>
-
-
-
   </div>
   </form>
   </div>
   </br>
 
+  <!--Chat popup-->
   <button class="open-button" onclick="openForm()">Lets Chat!</button>
 
-<div class="chat-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
-    <h1>Chat</h1>
+  <div class="chat-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>Chat</h1>
 
-    <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
+      <label for="msg"><b>Message</b></label>
+      <textarea placeholder="Type message.." name="msg" required></textarea>
 
-    <button type="submit" class="btn">Send</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-</div>
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
 
-<script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-}
+  <script>
+    function openForm() {
+      document.getElementById("myForm").style.display = "block";
+    }
 
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-</script>
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+  </script>
 
-<!-- FOOTER container start -->
-
+  <!-- FOOTER container start -->
   <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
     <div class="container">
       <div class="row">
@@ -179,5 +177,4 @@ function closeForm() {
   </footer>
   <!-- FOOTER container end -->
 </body>
-
 </html>
