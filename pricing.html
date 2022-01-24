@@ -1,279 +1,173 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <!-- Required meta tags -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-
-   <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="css/pricing.css">
-    
-    <link rel="stylesheet" href="css/styles.css">
-    
-
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
 </head>
 <body>
-
-    <!--NAVBAR-->
+  <!--NAVBAR start-->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: white;" id="stickynav">
-        <a class="navbar-brand" href="#"><img src="./img/csl.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-          Cloudsource
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="pricing.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="" aria-expanded="false">
-                   Pricing
-              </a>
-            </li>
-            <li class="nav-item dropdown"> 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Resources
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="###">###</a>
-            </li> 
-            <li class="nav-item dropdown"> 
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Contact
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="###">###</a>
-                <a class="dropdown-item" href="###"> ###</a>                        
-              </div>
-            </li> 
-          </ul>
-        </div>
+      <a class="navbar-brand" href="./index.html"><img src="./img/thunder1crop.png" width="30" height="30"
+          class="d-inline-block align-top" alt="" loading="lazy">
+        Cloudsource
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="./pricing.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="" aria-expanded="false">
+              Pricing
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" href="./resource.html" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Resources
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" href="./contact.html" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="./resource.html">Resource</a>
+              <a class="dropdown-item" href="./pricing.html">Pricing</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </nav>
+  <!-- NAVVAR end -->
 
-    <!-- PRICNG -->
-    
-    <div class="container-fluid" id="header">
-      <div class="row justify-content-center">
-        <div class="col-6">
-          <h1>pricing for you</h1>
+  <div class="container-all">
+    <div class="container-header">
+        <h1 style="color: #F3CD74;">CHOOSE YOUR STORM</h1>
+        <h4 id="smheading" style="color: #DEF9FA;">A PLAN THAT WORKS FOR YOU</h4>
+    </div>
+    <div class="container-wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f1f1f1" fill-opacity="1" d="M0,192L40,165.3C80,139,160,85,240,96C320,107,400,181,480,181.3C560,181,640,107,720,101.3C800,96,880,160,960,208C1040,256,1120,288,1200,288C1280,288,1360,256,1400,240L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    </div>
+    <div class="container-cards">
+      <div class="card-container">
+        <div class="card">
+          <figure class="front">
+            <img src="./img/raincrop.png" width="200" height="200">
+            <h1>rain</h1>
+            <h2>$5.99/mo</h2>
+          </figure>
+          <figure class="back">
+              <h5><b>1 Website</b></h5>
+              <h5><b>10 GB Web Space</b></h5>
+              <h5><b>~ 10,000 Visits Monthly</b></h5>
+              <h5>Unmetered Traffic</h5>
+              <h5>Free WP Installation</h5>
+              <h5>Free WP Migrator</h5>
+              <h5>WordPress Autoupdates</h5>
+              <h5>30-Days Money-Back</h5>
+              <h5>Add Collaborators</h5>
+            <span><a href="#"></a></span>
+          </figure>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <figure class="front">
+            <img src="./img/thunder1crop.png" width="200" height="200">
+            <h1>thunder</h1>
+            <h2>$10.99/mo</h2>
+          </figure>
+          <figure class="back">
+            <h5><b>Unlimited Website</b></h5>
+            <h5><b>20 GB Web Space</b></h5>
+            <h5><b>~ 100,000 Visits Monthly</b></h5>
+            <h5>Unmetered Traffic</h5>
+            <h5>Free WP Installation</h5>
+            <h5>Free WP Migrator</h5>
+            <h5>WordPress Autoupdates</h5>
+            <h5>30-Days Money-Back</h5>
+            <h5>Add Collaborators</h5>
+            <span><a href="#"></a></span>
+          </figure>
+        </div>
+      </div>  
+      <div class="card-container">
+        <div class="card">
+          <figure class="front">
+            <img src="./img/cloudsource1crop.png" width="200" height="200">
+            <h1>lightning</h1>
+            <h2>$15.99/mo</h2>
+          </figure>
+          <figure class="back">
+              <h5><b>Unlimited Website</b></h5>
+              <h5><b>40 GB Web Space</b></h5>
+              <h5><b>~ 400,000 Visits Monthly</b></h5>
+              <h5>Unmetered Traffic</h5>
+              <h5>Free WP Installation</h5>
+              <h5>Free WP Migrator</h5>
+              <h5>WordPress Autoupdates</h5>
+              <h5>30-Days Money-Back</h5>
+              <h5>Add Collaborators</h5>
+            <span><a href="#"></a></span>
+          </figure>
         </div>
       </div>
     </div>
-    <div class="container-fluid" id="pricebuttons">
-        <div class="row align-items-center">      
-              <div class="col-3 justify-content-center">
-                <div class="wrapper">
-                  <div class="card">
-                      <input type="checkbox" id="card1" class="more" aria-hidden="true">
-                      <div class="content">
-                          <div class="front" style="background-image: url('https://images.unsplash.com/photo-1529408686214-b48b8532f72c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=986e2dee5c1b488d877ad7ba1afaf2ec&auto=format&fit=crop&w=1350&q=80')">
-                              <div class="inner">
-                                  <h2>Cozy apartment</h2>
-                                  <div class="rating">
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="far fa-star"></i>
-                                  </div>
-                                  <label for="card1" class="button" aria-hidden="true">
-                                      Details
-                                  </label>
-                              </div>
-                          </div>
-                          <div class="back">
-                              <div class="inner">
-                                  <div class="info">
-                                      <span>5</span>
-                                      <div class="icon">
-                                          <i class="fas fa-users"></i>
-                                          <span>people</span>
-                                      </div>
-                                  </div>
-                                  <div class="info">
-                                      <span>4</span>
-                                      <div class="icon">
-                                          <i class="fas fa-door-open"></i>
-                                          <span>rooms</span>
-                                      </div>
-                                  </div>
-                                  <div class="info">
-                                      <span>3</span>
-                                      <div class="icon">
-                                          <i class="fas fa-bed"></i>
-                                          <span>beds</span>
-                                      </div>
-                                  </div>
-                                  <div class="info">
-                                      <span>1</span>
-                                      <div class="icon">
-                                          <i class="fas fa-bath"></i>
-                                          <span>bath</span>
-                                      </div>
-                                  </div>
-                                  <div class="description">
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, accusamus.</p>
-                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates earum nostrum ipsam
-                                          ullam, reiciendis nam consectetur? Doloribus voluptate architecto possimus perferendis
-                                          tenetur nemo amet temporibus, enim soluta nam, debitis.</p>
-                                  </div>
-                                  <div class="location">Warsaw, Poland</div>
-                                  <div class="price">38€ / day</div>
-                                  <label for="card1" class="button return" aria-hidden="true">
-                                      <i class="fas fa-arrow-left"></i>
-                                  </label>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="card">
-                      <input type="checkbox" id="card2" class="more">
-                      <div class="content">
-                          <div class="front" style="background-image: url('https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c02fb96f9cfc16d3649835b75d1b2033&auto=format&fit=crop&w=1350&q=80')">
-                              <div class="inner">
-                                  <h2>Modern flat</h2>
-                                  <div class="rating">
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star-half-alt"></i>
-                                      <i class="far fa-star"></i>
-                                  </div>
-                                  <label for="card2" class="button" aria-hidden="true">
-                                      Details
-                                  </label>
-                              </div>
-                          </div>
-                          <div class="back">
-                              <div class="inner">
-                                  <div class="info">
-                                      <span>4</span>
-                                      <div class="icon">
-                                          <i class="fas fa-users"></i>
-                                          <span>people</span>
-                                      </div>
-                                  </div>
-                                  <div class="info">
-                                      <span>3</span>
-                                      <div class="icon">
-                                          <i class="fas fa-door-open"></i>
-                                          <span>rooms</span>
-                                      </div>
-                                  </div>
-                                  <div class="info">
-                                      <span>2</span>
-                                      <div class="icon">
-                                          <i class="fas fa-bed"></i>
-                                          <span>beds</span>
-                                      </div>
-                                  </div>
-                                  <div class="info">
-                                      <span>1</span>
-                                      <div class="icon">
-                                          <i class="fas fa-bath"></i>
-                                          <span>bath</span>
-                                      </div>
-                                  </div>
-                                  <div class="description">
-                                      <p>
-                                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem unde ea voluptas
-                                          fuga
-                                          odio vel veniam eveniet, explicabo autem earum?</p>
-                                      <ul>
-                                          <li>Lorem ipsum dolor sit amet.</li>
-                                          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-                                          <li>Lorem ipsum dolor sit amet consectetur.</li>
-                                          <li>Lorem ipsum dolor sit amet.</li>
-                                      </ul>
-                                  </div>
-                                  <div class="location">Warsaw, Poland</div>
-                                  <div class="price">42€ / day</div>
-                                  <label for="card2" class="button return" aria-hidden="true">
-                                      <i class="fas fa-arrow-left"></i>
-                                  </label>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="card">
-                      <input type="checkbox" id="card3" class="more">
-                      <div class="content">
-                          <div class="front" style="background-image: url('https://images.unsplash.com/photo-1529595354331-201ad3ae5e71?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6114533e2d0c1c81534fe13611dbfd76&auto=format&fit=crop&w=658&q=80')">
-                              <div class="inner">
-                                  <h2>Luxury property</h2>
-                                  <div class="rating">
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                  </div>
-                                  <label for="card3" class="button" aria-hidden="true">
-                                      Details
-                                  </label>
-                              </div>
-                          </div>
-                          <div class="back">
-                              <div class="inner">
-                                  <div class="info">
-                                      <span>8</span>
-                                      <div class="icon">
-                                          <i class="fas fa-users"></i>
-                                          <span>people</span>
-                                      </div>
-                                  </div>
-                                  <div class="info">
-                                      <span>7</span>
-                                      <div class="icon">
-                                          <i class="fas fa-door-open"></i>
-                                          <span>rooms</span>
-                                      </div>
-                                  </div>
-                                  <div class="info">
-                                      <span>5</span>
-                                      <div class="icon">
-                                          <i class="fas fa-bed"></i>
-                                          <span>beds</span>
-                                      </div>
-                                  </div>
-                                  <div class="info">
-                                      <span>2</span>
-                                      <div class="icon">
-                                          <i class="fas fa-bath"></i>
-                                          <span>baths</span>
-                                      </div>
-                                  </div>
-                                  <div class="description">
-                                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa libero
-                                          totam nostrum consequatur autem quae provident quos alias fugit maxime nisi labore,
-                                          temporibus tempore illo natus voluptates aliquam ipsum officia quasi placeat aut
-                                          facilis
-                                          laudantium nam!</p>
-                                      <p>Quam, iusto.Neque ratione ut deserunt unde dicta nesciunt,
-                                          repudiandae
-                                          aspernatur explicabo numquam! Tenetur!</p>
-                                  </div>
-                                  <div class="location">Cracow, Poland</div>
-                                  <div class="price">60€ / day</div>
-                                  <label for="card3" class="button return" aria-hidden="true">
-                                      <i class="fas fa-arrow-left"></i>
-                                  </label>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              </div>
-         </div>
-    </div>
-  
+  </div>
 
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+   <!-- FOOTER container start -->
+
+   <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          Hosting <br>
+          <a class="footer-links" href="./pricing.html">WordPress Hosting <br></a>
+          <a class="footer-links" href="./pricing.html"> VPS Hosting <br></a>
+          <a class="footer-links" href="./pricing.html">Dedicated Hosting</a>
+        </div>
+        <div class="col">
+          Domains <br>
+          <a class="footer-links" href="./resource.html"> Manage</a>
+        </div>
+        <div class="col">
+          Support<br>
+          <a class="footer-links" href="./contact.html">Customer Support</a><br>
+          <a class="footer-links" href="./contact.html">Live Chat</a>
+        </div>
+        <div class="col">
+          Company <br>
+          <a class="footer-links" href="./contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container text-center">
+      <small>Copyright &copy; Cloudsource.com</small>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </footer>
+      <!-- FOOTER container end -->
+  
+   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 
 </body>
